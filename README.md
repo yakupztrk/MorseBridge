@@ -19,7 +19,12 @@ I used Cygwin64 to compile this code. Before compiling the code, it is necessary
 ![](https://photos.app.goo.gl/A9EsqpdCr99qfhtp6)
 
 
-After doing this, compile the code as shown below:  
-gcc -o Project Project.c $(sdl2-config --cflags --libs)  
+* After doing this, compile the code as shown below:
+  ```sh
+  gcc -o Project Project.c $(sdl2-config --cflags --libs)  
+  ```
 Then run your code as follows:  
-./Project  
+  ```sh
+ ./Project  
+  ```
+
