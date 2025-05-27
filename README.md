@@ -13,10 +13,9 @@ Outputs interpreted letters to the terminal
 
 ## How to Compile  
 I used Cygwin64 to compile this code. Before compiling the code, it is necessary to add the SDL2 library, which is required to collect mouse clicks, as a package to Cygwin64. In order for the code to run successfully, add the following packages:  
+
 1- libSDL2-devel  
 2- libSDL2_2.0_0  
-
-![](https://photos.app.goo.gl/A9EsqpdCr99qfhtp6)
 
 After doing this, compile the code as shown below:
 ```sh
