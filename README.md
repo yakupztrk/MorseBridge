@@ -17,11 +17,11 @@ I used Cygwin64 to compile this code. Before compiling the code, it is necessary
 1- libSDL2-devel  
 2- libSDL2_2.0_0  
 
-After doing this, compile the code as shown below:
+After doing this, compile the *MorseBridge* code using the code below:
 ```sh
 gcc -o Project Project.c $(sdl2-config --cflags --libs)  
 ```
-Then run your code as follows:  
+Then Run the project using the code below: 
 ```sh
 ./Project  
 ```
