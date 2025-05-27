@@ -16,6 +16,8 @@ I used Cygwin64 to compile this code. Before compiling the code, it is necessary
 1- libSDL2-devel  
 2- libSDL2_2.0_0  
 
+![](https://photos.app.goo.gl/A9EsqpdCr99qfhtp6)
+
 
 After doing this, compile the code as shown below:  
 gcc -o Project Project.c $(sdl2-config --cflags --libs)  
